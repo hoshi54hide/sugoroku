@@ -1,0 +1,24 @@
+<style>
+ .sugoroku-list {
+   overflow-x: auto;
+   white-space: nowrap;
+   -webkit-overflow-scrolling: touch;
+ }
+.sugoroku-list{
+  margin-left:230px;
+}
+
+ .item {
+   /* 横スクロール用 */
+   display: inline-block;
+   width: 3%;
+
+   /* 見た目調整 */
+   height: 20px;
+   margin: 5px;
+   font-size: 10px;
+   background: rgba(255, 0, 0, 0.4);
+
+ }
+
+ </style>
