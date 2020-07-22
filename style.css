@@ -1,15 +1,19 @@
 <style>
+body{
+  display : inline-block;
+}
  .sugoroku-list {
    overflow-x: auto;
    white-space: nowrap;
    -webkit-overflow-scrolling: touch;
 }
-
+.sugoroku-list{
+  margin-left: 250px
+}
 
  .item {
-   /* 横スクロール用 */
-   display: inline-block;
-   width: 40px;
+   display : inline-block;
+   width: 28px;
 
    /* 見た目調整 */
    height: 20px;
