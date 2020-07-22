@@ -1,5 +1,4 @@
 
-
 img = new Array("★","◆","●","■");
 koma = new Array();
 goal = 23;
@@ -29,7 +28,7 @@ function getNum(num) {
 	koma[num] += r;
 	var s = "";
 	for (i=0; i<koma[num]; i++) {
-		s += "👣👣";
+		s += "🐾🐾";
 	}
 	document.getElementById("brd"+num).innerHTML = s + img[num];
 	if (koma[num] < goal) {
