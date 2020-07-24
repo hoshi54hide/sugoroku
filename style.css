@@ -1,4 +1,3 @@
-<style>
 body{
   display : inline-block;
 }
@@ -22,7 +21,8 @@ body{
    background: rgba(255, 0, 0, 0.4);
 
  }
-.diceform{
-  overflow:scroll;
-}
- </style>
+
+ .diceform {
+overflow: scroll;
+ }
+
