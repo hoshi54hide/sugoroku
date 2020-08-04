@@ -7,7 +7,7 @@ body{
    -webkit-overflow-scrolling: touch;
 }
 .sugoroku-list{
-  margin-left: 250px
+  margin-left: 350px
 }
 
  .item {
@@ -25,4 +25,3 @@ body{
  .diceform {
 overflow: scroll;
  }
-
