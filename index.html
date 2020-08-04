@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html>
 
 <head>
@@ -19,19 +18,28 @@
       <table border="0" cellspacing="5" cellpadding="5">
         <tr>
           <td><input name="user0" type="text" size="20" value="あなた"></td>
-          <td><input name="btn0" type="button" value="サイコロ" onClick="getNum(0)"></td>
+          <td><input name="btn0" type="button" value="サイコロ" onClick="getNum(0);getLeftVal()"></td>
           <td>
             <div id="sai0"></div>
           </td>
+           <td>残りマス</td>
+           <td>
+             <p id="leftVal">23</p>
+           </td>
           <td>
             <div id="brd0"></div>
           </td>
+
         </tr>
         <tr>
           <td><input name="user1" type="text" size="20"></td>
           <td><input name="btn1" type="button" value="サイコロ" onClick="getNum(1)"></td>
           <td>
             <div id="sai1"></div>
+          </td>
+          <td>残りマス</td>
+          <td>
+            <p id="leftVal">23</p>
           </td>
           <td>
             <div id="brd1"></div>
@@ -43,6 +51,10 @@
           <td>
             <div id="sai2"></div>
           </td>
+          <td>残りマス</td>
+          <td>
+            <p id="leftVal">23</p>
+          </td>
           <td>
             <div id="brd2"></div>
           </td>
@@ -52,6 +64,10 @@
           <td><input name="btn3" type="button" value="サイコロ" onClick="getNum(3)"></td>
           <td>
             <div id="sai3"></div>
+          </td>
+          <td>残りマス</td>
+          <td>
+            <p id="leftVal">23</p>
           </td>
           <td>
             <div id="brd3"></div>
